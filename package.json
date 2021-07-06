@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/regexp-extname-windows",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Return a regular expression to capture a Windows filename extension.",
   "license": "Apache-2.0",
   "author": {
