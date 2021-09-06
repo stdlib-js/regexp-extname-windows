@@ -121,6 +121,24 @@ ext = RE_EXTNAME_WINDOWS.exec( 'C:\\foo\\bar\\.gitignore' )[ 1 ];
 
 <!-- /.examples -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/regexp/extname`][@stdlib/regexp/extname]: return a regular expression to capture a filename extension.
+-   [`@stdlib/regexp/extname-posix`][@stdlib/regexp/extname-posix]: return a regular expression to capture a POSIX filename extension.
+-   [`@stdlib/utils/extname`][@stdlib/utils/extname]: return a filename extension.
+
+</section>
+
+<!-- /.related -->
+
+<!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
 
 <section class="main-repo" >
 
@@ -177,6 +195,16 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/regexp-extname-windows/main/LICENSE
 
 [regexp]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions
+
+<!-- <related-links> -->
+
+[@stdlib/regexp/extname]: https://github.com/stdlib-js/regexp-extname
+
+[@stdlib/regexp/extname-posix]: https://github.com/stdlib-js/regexp-extname-posix
+
+[@stdlib/utils/extname]: https://github.com/stdlib-js/utils-extname
+
+<!-- </related-links> -->
 
 </section>
 
