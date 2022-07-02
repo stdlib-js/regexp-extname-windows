@@ -53,7 +53,9 @@ If no recognized module system is present, access bundle contents via the global
 ```html
 <script type="text/javascript">
 (function () {
+(function () {
     window.reExtnameWindows;
+})();
 })();
 </script>
 ```
@@ -112,6 +114,7 @@ var ext = reExtnameWindows.REGEXP.exec( 'C:\\foo\\bar\\index.js' )[ 1 ];
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/regexp-extname-windows@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
+(function () {
 
 var RE_EXTNAME_WINDOWS = reExtnameWindows();
 var ext;
@@ -137,6 +140,7 @@ ext = RE_EXTNAME_WINDOWS.exec( '\\foo\\bar\\file' )[ 1 ];
 ext = RE_EXTNAME_WINDOWS.exec( 'C:\\foo\\bar\\.gitignore' )[ 1 ];
 // returns ''
 
+})();
 })();
 </script>
 </body>
@@ -236,11 +240,11 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/regexp/extname]: https://github.com/stdlib-js/regexp-extname/tree/umd
+[@stdlib/regexp/extname]: https://github.com/stdlib-js/regexp-extname/tree/umd/tree/umd
 
-[@stdlib/regexp/extname-posix]: https://github.com/stdlib-js/regexp-extname-posix/tree/umd
+[@stdlib/regexp/extname-posix]: https://github.com/stdlib-js/regexp-extname-posix/tree/umd/tree/umd
 
-[@stdlib/utils/extname]: https://github.com/stdlib-js/utils-extname/tree/umd
+[@stdlib/utils/extname]: https://github.com/stdlib-js/utils-extname/tree/umd/tree/umd
 
 <!-- </related-links> -->
 
