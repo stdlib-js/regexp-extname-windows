@@ -42,13 +42,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import reExtnameWindows from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-extname-windows@deno/mod.js';
+import reExtnameWindows from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-extname-windows@v0.2.0-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { REGEXP } from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-extname-windows@deno/mod.js';
+import { REGEXP } from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-extname-windows@v0.2.0-deno/mod.js';
 ```
 
 #### reExtnameWindows()
@@ -99,7 +99,7 @@ var ext = reExtnameWindows.REGEXP.exec( 'C:\\foo\\bar\\index.js' )[ 1 ];
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import reExtnameWindows from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-extname-windows@deno/mod.js';
+import reExtnameWindows from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-extname-windows@v0.2.0-deno/mod.js';
 
 var RE_EXTNAME_WINDOWS = reExtnameWindows();
 var ext;
